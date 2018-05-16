@@ -10,9 +10,11 @@
   // Je remplis les variables $firstNumber et $secondNumber avant le calcul
   $firstNumber = 0;
   $secondNumber = 99;
-  while ($firstNumber < 20) { //Tant que la valeur de $firstNumber est inférieure à 20,
-    echo $firstNumber*$secondNumber.'<br />'; //On affiche le résultat du calcul,
-    $firstNumber++; //Puis on incrémente la valeur de $firstNumber
+// Tant que la valeur de $firstNumber est inférieure à 20,
+  while ($firstNumber < 20) { ?>
+    <!-- On affiche le résultat du calcul, -->
+    <p><?php echo $firstNumber*$secondNumber;?></p>
+    <?php $firstNumber++; //Puis on incrémente la valeur de $firstNumber
   }
   ?>
   </body>
